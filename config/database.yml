@@ -35,7 +35,7 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  host: pgsql03-farm70.uni5.net
+  host: pgsql.zabachat.uni5.net
   user: onebitmessenger
 
 development:

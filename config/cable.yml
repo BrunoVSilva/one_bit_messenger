@@ -1,12 +1,11 @@
 development:
-  adapter: redis
-  url: "redis://onebitmessenger.web7081.uni5.net:6379"
-  channel_prefix: one_bit_messenger_production
+  adapter: async
+
 
 test:
-  adapter: test
+  adapter: async
 
 production:
   adapter: redis
-  url: "redis://onebitmessenger.web7081.uni5.net:6379"
+  url: "redis://zabachat.uni5.net:6379:6379"
   channel_prefix: one_bit_messenger_production
