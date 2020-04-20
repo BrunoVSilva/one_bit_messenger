@@ -8,4 +8,4 @@ test:
 production:
   adapter: redis
   url: "redis://zabachat.uni5.net:6379:6379"
-  channel_prefix: one_bit_messenger_production
+  # channel_prefix: one_bit_messenger_production
